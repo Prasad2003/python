@@ -1,0 +1,22 @@
+# Example list
+my_list = [12, 45, 78, 34, 90, 23]
+
+# Initialize the largest variable with the first element of the list
+largest = my_list[0]
+
+# Iterate through the list to find the largest number
+for num in my_list:
+    if num > largest:
+        largest = num
+
+print("The largest number is:", largest)
+
+
+b. With using the max() standard function:
+
+python
+Copy code
+# Example usage:
+my_list = [12, 45, 78, 34, 90, 23]
+largest_num = max(my_list)
+print("The largest number is:", largest_num)
